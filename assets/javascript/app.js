@@ -119,7 +119,10 @@ var questionArray =
         "What object belonging to George does Elaine throw out of a window?",
         "What is Jerry's real first name?",
         "What flavor of Italian Ice does Bette Midler ask Kramer to buy for her?",
-        "What major character was not in the pilot episode?"
+        "What major character was not in the pilot episode?",
+        "What is the name of the horse that is pulling the carriage Kramer takes over for a friend?",
+        "What song does Elaine correctly identify to win Mr. Pitt tickets to the Macy's Thanksgiving Day Parade?",
+        "What is the name of the multi-ethnic cuisine restaurant that Babu Bhatt opens across the street from Jerry's apartment?"
     ];
 
 var answerArray = [
@@ -130,7 +133,11 @@ var answerArray = [
     ["Baseball Card", "Car Keys", "Wig", "Sweater"],
     ["Gerald", "Joshua", "Jerard", "Jerome"],
     ["Pineapple", "Tutti-frutti", "Strawberry", "Banana"],
-    ["George", "Kramer", "Jerry", "Elaine"],];
+    ["George", "Kramer", "Jerry", "Elaine"],
+    ["Lomez", "Beef-O-Reno", "Rusty", "Nicodemo"],
+    ["In The Mood", "Next Stop Pottersville", "Chattanooga Choo Choo", "Sing Sing Sing"],
+    ["The World Cafe", "Cafe Babu", "Monk's Cafe", "The Dream Cafe"],
+];
 
 var imageArray = new Array();
 imageArray[0] = "<img class='center-block' src='assets/images/georgefudge.gif'>";
@@ -141,6 +148,9 @@ imageArray[4] = "<img class='center-block' src='assets/images/elainewig.gif'>";
 imageArray[5] = "<img class='center-block' src='assets/images/jerry.gif'>";
 imageArray[6] = "<img class='center-block' src='assets/images/bettemidler.gif'>";
 imageArray[7] = "<img class='center-block' src='assets/images/kramerdancing.gif'>";
+imageArray[8] = "<img class='center-block' src='assets/images/rusty.gif'>";
+imageArray[9] = "<img class='center-block' src='assets/images/pittdancing.gif'>";
+imageArray[10] = "<img class='center-block' src='assets/images/babu.gif'>";
 
 var correctAnswers =
     ["B. Bosco",
@@ -150,7 +160,10 @@ var correctAnswers =
         "C. Wig",
         "D. Jerome",
         "A. Pineapple",
-        "B. Kramer"];
+        "B. Kramer",
+        "C. Rusty",
+        "B. Next Stop Potterville",
+        "D. The Dream Cafe"];
 
 var questionCounter = 0;
 var selecterAnswer;
