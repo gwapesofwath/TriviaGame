@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     function openingPage() {
         openScreen = "<p class='text-center main-button-container'><a class='btn btn-primary btn-md btn-block start-button' href='#' role='button'>Giddy Up!</a></p>";
-        $("#mainArea").append(openScreen);
+        $("#questionArea").append(openScreen);
     }
 
     openingPage();
@@ -70,7 +70,7 @@ function generateQuestions() {
 
 function wait() {
     //ternary operator replacing if/else for generate more questions
-    questionCounter < 7 ?
+    questionCounter < 12 ?
         (questionCounter++ ,
             generateQuestions(),
             counter = 30,
@@ -115,55 +115,63 @@ var questionArray =
     ["What is George's secret ATM password?",
         "What is Elaine's middle name?",
         "Whose former postal route did Newman take over?",
-        "Whose Chrystler Lebaron did George think he bought?",
-        "What object belonging to George does Elaine throw out of a window?",
-        "What is Jerry's real first name?",
         "What flavor of Italian Ice does Bette Midler ask Kramer to buy for her?",
         "What major character was not in the pilot episode?",
+        "What object belonging to George does Elaine throw out of a window?",
+        "What is Jerry's real first name?",
         "What is the name of the horse that is pulling the carriage Kramer takes over for a friend?",
         "What song does Elaine correctly identify to win Mr. Pitt tickets to the Macy's Thanksgiving Day Parade?",
-        "What is the name of the multi-ethnic cuisine restaurant that Babu Bhatt opens across the street from Jerry's apartment?"
+        "What is the name of the international cuisine restaurant that Babu Bhatt opens across the street from Jerry's apartment?",
+        "What is Newman's first name and what is the name of the Bizarro Newman?",
+        "Whose Chrystler Lebaron did George think he bought?",
+        "According to Jerry, when was the last time he vomited?"
     ];
 
 var answerArray = [
     ["Bunion", "Bosco", "Seven", "Twix"],
     ["Marie", "Gail", "Susan", "Estelle"],
     ["Crazy Joe Davola", "Jack Klompus", "David Berkowitz", "Ted Bundy"],
-    ["Keith Hernandez", "Jon Voight", "Marissa Tomei", "Tim Whatley"],
+    ["Pineapple", "Tutti-frutti", "Strawberry", "Banana"],
     ["Baseball Card", "Car Keys", "Wig", "Sweater"],
     ["Gerald", "Joshua", "Jerard", "Jerome"],
-    ["Pineapple", "Tutti-frutti", "Strawberry", "Banana"],
     ["George", "Kramer", "Jerry", "Elaine"],
     ["Lomez", "Beef-O-Reno", "Rusty", "Nicodemo"],
     ["In The Mood", "Next Stop Pottersville", "Chattanooga Choo Choo", "Sing Sing Sing"],
     ["The World Cafe", "Cafe Babu", "Monk's Cafe", "The Dream Cafe"],
+    ["Norman and Vargas", "Norris and Feldman", "Kessler and Fargas", "Fargas and Norman"],
+    ["Marissa Tomei", "Jon Voight", "Keith Hernandez", "Tim Whatley"],
+    ["June 29th, 1980", "July 16th, 1988", "June 28th, 1982", "July 4th, 1972"],
 ];
 
 var imageArray = new Array();
 imageArray[0] = "<img class='center-block' src='assets/images/georgefudge.gif'>";
 imageArray[1] = "<img class='center-block' src='assets/images/elaine.gif'>";
 imageArray[2] = "<img class='center-block' src='assets/images/newmanjambalaya.gif'>";
-imageArray[3] = "<img class='center-block' src='assets/images/georgewaving.gif'>";
+imageArray[3] = "<img class='center-block' src='assets/images/bettemidler.gif'>";
 imageArray[4] = "<img class='center-block' src='assets/images/elainewig.gif'>";
 imageArray[5] = "<img class='center-block' src='assets/images/jerry.gif'>";
-imageArray[6] = "<img class='center-block' src='assets/images/bettemidler.gif'>";
-imageArray[7] = "<img class='center-block' src='assets/images/kramerdancing.gif'>";
-imageArray[8] = "<img class='center-block' src='assets/images/rusty.gif'>";
-imageArray[9] = "<img class='center-block' src='assets/images/pittdancing.gif'>";
-imageArray[10] = "<img class='center-block' src='assets/images/babu.gif'>";
+imageArray[6] = "<img class='center-block' src='assets/images/elaineentrance.gif'>";
+imageArray[7] = "<img class='center-block' src='assets/images/rusty.gif'>";
+imageArray[8] = "<img class='center-block' src='assets/images/pittdancing.gif'>";
+imageArray[9] = "<img class='center-block' src='assets/images/babu.gif'>";
+imageArray[10] = "<img class='center-block' src='assets/images/bizarro.gif'>";
+imageArray[11] = "<img class='center-block' src='assets/images/georgewaving.gif'>";
+imageArray[11] = "<img class='center-block' src='assets/images/blackandwhite.gif'>";
 
 var correctAnswers =
     ["B. Bosco",
         "A. Marie",
         "C. David Berkowitz",
-        "B. Jon Voight",
+        "A. Pineapple",
         "C. Wig",
         "D. Jerome",
-        "A. Pineapple",
-        "B. Kramer",
+        "B. Elaine",
         "C. Rusty",
         "B. Next Stop Potterville",
-        "D. The Dream Cafe"];
+        "D. The Dream Cafe",
+        "A. Vargas and Norman",
+        "B. Jon Voight",
+        "A. June 29th, 1980"];
 
 var questionCounter = 0;
 var selecterAnswer;

@@ -32,16 +32,28 @@
     max-width: 50%;
     margin-left: auto;
     color: red;
-    font-size: 20px;
-    height: 500px;;
+    font-size: 30px;
+    height: 300px;
   }
+
+  #questionArea {
+    margin-top:10px;
+    max-width: 50%;
+    margin-left: auto;
+    color: red;
+    background-color: yellow;
+    opacity: .7;
+    font-size: 30px;
+    height: 200px;;
+  }
+
   .timer-p {
     margin-top: 50px;
     font-size:24px;
   }
   
   p.text-center {
-    font-size:10px;
+    font-size: 18px;
   }
   .answer:hover {
     background: rgba(250, 240, 99, 0.99);
