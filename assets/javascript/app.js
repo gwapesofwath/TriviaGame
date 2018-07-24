@@ -132,9 +132,9 @@ var answerArray = [
     ["Marie", "Gail", "Susan", "Estelle"],
     ["Crazy Joe Davola", "Jack Klompus", "David Berkowitz", "Ted Bundy"],
     ["Pineapple", "Tutti-frutti", "Strawberry", "Banana"],
+    ["George", "Kramer", "Jerry", "Elaine"],
     ["Baseball Card", "Car Keys", "Wig", "Sweater"],
     ["Gerald", "Joshua", "Jerard", "Jerome"],
-    ["George", "Kramer", "Jerry", "Elaine"],
     ["Lomez", "Beef-O-Reno", "Rusty", "Nicodemo"],
     ["In The Mood", "Next Stop Pottersville", "Chattanooga Choo Choo", "Sing Sing Sing"],
     ["The World Cafe", "Cafe Babu", "Monk's Cafe", "The Dream Cafe"],
@@ -148,24 +148,24 @@ imageArray[0] = "<img class='center-block' src='assets/images/georgefudge.gif'>"
 imageArray[1] = "<img class='center-block' src='assets/images/elaine.gif'>";
 imageArray[2] = "<img class='center-block' src='assets/images/newmanjambalaya.gif'>";
 imageArray[3] = "<img class='center-block' src='assets/images/bettemidler.gif'>";
-imageArray[4] = "<img class='center-block' src='assets/images/elainewig.gif'>";
-imageArray[5] = "<img class='center-block' src='assets/images/jerry.gif'>";
-imageArray[6] = "<img class='center-block' src='assets/images/elaineentrance.gif'>";
+imageArray[4] = "<img class='center-block' src='assets/images/elaineentrance.gif'>";
+imageArray[5] = "<img class='center-block' src='assets/images/elainewig.gif'>";
+imageArray[6] = "<img class='center-block' src='assets/images/jerry.gif'>";
 imageArray[7] = "<img class='center-block' src='assets/images/rusty.gif'>";
 imageArray[8] = "<img class='center-block' src='assets/images/pittdancing.gif'>";
 imageArray[9] = "<img class='center-block' src='assets/images/babu.gif'>";
 imageArray[10] = "<img class='center-block' src='assets/images/bizarro.gif'>";
 imageArray[11] = "<img class='center-block' src='assets/images/georgewaving.gif'>";
-imageArray[11] = "<img class='center-block' src='assets/images/blackandwhite.gif'>";
+imageArray[12] = "<img class='center-block' src='assets/images/blackandwhite.gif'>";
 
 var correctAnswers =
     ["B. Bosco",
         "A. Marie",
         "C. David Berkowitz",
         "A. Pineapple",
+        "B. Elaine",
         "C. Wig",
         "D. Jerome",
-        "B. Elaine",
         "C. Rusty",
         "B. Next Stop Potterville",
         "D. The Dream Cafe",
