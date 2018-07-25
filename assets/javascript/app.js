@@ -131,7 +131,7 @@ var questionArray =
         "What is the name of the horse that is pulling the carriage Kramer takes over for a friend?",
         "What song does Elaine correctly identify to win Mr. Pitt tickets to the Macy's Thanksgiving Day Parade?",
         "What is the name of the international cuisine restaurant that Babu Bhatt opens across the street from Jerry's apartment?",
-        "What is Newman's first name and what is the name of the Bizarro Newman?",
+        "What is the name of the Bizarro Newman?",
         "Whose Chrystler Lebaron did George think he bought?",
         "According to Jerry, when was the last time he vomited?"
     ];
@@ -172,12 +172,13 @@ var correctAnswers =
         "A. Marie",
         "C. David Berkowitz",
         "A. Pineapple",
+        "D. Elaine",
         "C. Wig",
         "D. Jerome",
         "C. Rusty",
         "B. Next Stop Potterville",
         "D. The Dream Cafe",
-        "A. Vargas and Norman",
+        "A. Vargas",
         "B. Jon Voight",
         "A. June 29th, 1980"];
 
