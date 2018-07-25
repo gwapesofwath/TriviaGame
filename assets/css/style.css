@@ -36,31 +36,49 @@
     height: 300px;
   }
 
-  #questionArea {
-    margin-top:10px;
-    max-width: 50%;
+  /* #questionArea {
+    margin: 10% 10% 10% 10%;
+    max-width: 100%;
     margin-left: auto;
     color: red;
     background-color: yellow;
     opacity: .7;
     font-size: 30px;
-    height: 200px;;
-  }
+    height: auto
+  } */
 
   .timer-p {
     margin-top: 50px;
-    font-size:24px;
+    font-size: 10px;
+    opacity: .7;
+    font-size: 10px;
+    height: auto;
+    background-color: yellow;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto; 
+    margin-bottom: auto; 
+  
   }
   
   p.text-center {
+    margin-top: 50px;
     font-size: 18px;
+    opacity: .7;
+    font-size: 16px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto; 
+    margin-bottom: auto; 
+    background-color: yellow;
   }
   .answer:hover {
     background: rgba(250, 240, 99, 0.99);
   }
 
   p {
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 400;
     font-family: 'Press Start 2P', cursive;
   }
@@ -180,6 +198,16 @@
   p {
       font-size: 30px;
       font-weight: 300;
+      margin-top: 50px;
+      font-size: 18px;
+      opacity: .7;
+      font-size: 16px;
+      height: auto;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right:auto; 
+      margin-bottom: auto; 
+      background-color: yellow;
     }
 
   img, .img-wrong, .answer {

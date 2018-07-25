@@ -1,5 +1,12 @@
 $(document).ready(function () {
     // Create a function that creates the start button and initial screen
+   
+        $("#mainArea").click(function(){
+            $(".jumbotron").hide();
+        });
+        $("#show").click(function(){
+            $("p").show();
+        });
 
     function openingPage() {
         openScreen = "<p class='text-center main-button-container'><a class='btn btn-primary btn-md btn-block start-button' href='#' role='button'>Giddy Up!</a></p>";
@@ -19,6 +26,7 @@ $(document).ready(function () {
 
     }); // Closes start-button click
 
+
     $("body").on("click", ".answer", function (event) {
 
         selectedAnswer = $(this).text();
@@ -33,6 +41,7 @@ $(document).ready(function () {
                 generateLoss()
             )
     }); // Close .answer click
+
 
     $("body").on("click", ".reset-button", function (event) {
         resetGame();
@@ -163,7 +172,6 @@ var correctAnswers =
         "A. Marie",
         "C. David Berkowitz",
         "A. Pineapple",
-        "B. Elaine",
         "C. Wig",
         "D. Jerome",
         "C. Rusty",
@@ -181,8 +189,10 @@ var incorrectTally = 0;
 var unansweredTally = 0;
 
 
-
-
+// $(".jumbotron").css({
+//     display: "none",
+//     visibility: "hidden"
+//   });
 
 
 // var currentQuestion = 0;
