@@ -141,6 +141,7 @@
     .timer-p {
       /* margin-top: 70px;
       margin-bottom: 30px; */
+      width: auto;
     }
     body {
       background-image: url("../images/a0gvhid6qotnduzvqtwm.jpg");
@@ -169,24 +170,38 @@
     }
 
    .btn {
-      margin: auto;
-      width: 100%;
+      width: auto;
       color: white;
       text-align: center;
-      font-size: 12px;
+      font-size: 10px;
     }
 
     .jumbotron, #mainArea, .main-button-container {
       margin: auto;
-      width: 100%;
+      width: auto;
       height: auto;
       color: red;
       text-align: center;
       font-size: 10px;
     }
-   }
+   
+    p.text-center {
+      margin-top: 50px;
+      opacity: .7;
+      font-size: 14px;
+      height: auto; 
+      /* /* margin-left: auto; */
+      margin-right:auto; 
+      margin-bottom: auto; 
+      width: auto;
+      /* padding: 35px; */
+      padding-right: 35px;
+      padding-left: 35px;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      background-color: yellow;
 
-
+    }
   
   /* // Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767px) {  
