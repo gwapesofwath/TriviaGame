@@ -130,10 +130,10 @@ var questionArray =
         "What is Jerry's real first name?",
         "What is the name of the horse that pulls the carriage Kramer takes over for a friend?",
         "What song does Elaine correctly identify to win Mr. Pitt tickets to the Macy's Thanksgiving Day Parade?",
-        "What is the name of the international cuisine restaurant that Babu Bhatt opens across the street from Jerry's apartment?",
+        "What is the name of the restaurant that Babu Bhatt opens across the street from Jerry's apartment?",
         "What is the name of the Bizarro Newman?",
         "Whose Chrystler Lebaron did George think he bought?",
-        "According to Jerry, when was the last time he vomited?"
+        "According to Jerry, when was the last time he vomited?",
     ];
 
 var answerArray = [

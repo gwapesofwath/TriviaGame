@@ -22,14 +22,14 @@
   
   }
   .main-button-container {
-    max-width: 450px;
-    margin-left: auto;
+    max-width: 750px;
+    margin: auto;
     /* margin-right: auto; */
   }
 
   #mainArea {
     margin-top:10px;
-    max-width: 50%;
+    max-width: 60%;
     margin-left: auto;
     color: red;
     font-size: 30px;
@@ -53,7 +53,7 @@
     opacity: .7;
     font-size: 10px;
     height: auto;
-    background-color: yellow;
+    /* background-color: yellow; */
     /* margin-top: 50px;
     margin-left: auto;
     margin-right:auto; 
@@ -70,7 +70,7 @@
     /* margin-left: auto;
     margin-right:auto; 
     margin-bottom: auto;  */
-    /* width: auto; */
+    width: auto;
     /* padding: 35px; */
     padding-right: 35px;
     padding-left: 35px;
