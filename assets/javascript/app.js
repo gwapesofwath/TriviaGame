@@ -103,7 +103,7 @@ function timerWrapper() {
 }
 
 function finalScreen() {
-    gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, hopefully you're the master of your domain." + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-primary btn-md btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
+    gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, hopefully you're the master of your domain." + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-primary btn-md btn-block reset-button' href='#' role='button'>Reset Quiz!</a></p>";
     $("#mainArea").html(gameHTML);
 }
 
@@ -128,7 +128,7 @@ var questionArray =
         "What major character was not in the pilot episode?",
         "What object belonging to George does Elaine throw out of a window?",
         "What is Jerry's real first name?",
-        "What is the name of the horse that is pulling the carriage Kramer takes over for a friend?",
+        "What is the name of the horse that pulls the carriage Kramer takes over for a friend?",
         "What song does Elaine correctly identify to win Mr. Pitt tickets to the Macy's Thanksgiving Day Parade?",
         "What is the name of the international cuisine restaurant that Babu Bhatt opens across the street from Jerry's apartment?",
         "What is the name of the Bizarro Newman?",
@@ -147,7 +147,7 @@ var answerArray = [
     ["Lomez", "Beef-O-Reno", "Rusty", "Nicodemo"],
     ["In The Mood", "Next Stop Pottersville", "Chattanooga Choo Choo", "Sing Sing Sing"],
     ["The World Cafe", "Cafe Babu", "Monk's Cafe", "The Dream Cafe"],
-    ["Norman and Vargas", "Norris and Feldman", "Kessler and Fargas", "Fargas and Norman"],
+    ["Vargas", "Feldman", "Fargas", "Norman"],
     ["Marissa Tomei", "Jon Voight", "Keith Hernandez", "Tim Whatley"],
     ["June 29th, 1980", "July 16th, 1988", "June 28th, 1982", "July 4th, 1972"],
 ];
@@ -176,7 +176,7 @@ var correctAnswers =
         "C. Wig",
         "D. Jerome",
         "C. Rusty",
-        "B. Next Stop Potterville",
+        "B. Next Stop Pottersville",
         "D. The Dream Cafe",
         "A. Vargas",
         "B. Jon Voight",

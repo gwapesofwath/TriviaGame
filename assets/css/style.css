@@ -54,10 +54,10 @@
     font-size: 10px;
     height: auto;
     background-color: yellow;
-    margin-top: 50px;
+    /* margin-top: 50px;
     margin-left: auto;
     margin-right:auto; 
-    margin-bottom: auto; 
+    margin-bottom: auto;  */
   
   }
   
@@ -66,13 +66,19 @@
     font-size: 18px;
     opacity: .7;
     font-size: 16px;
-    height: auto;
-    margin-top: 50px;
-    margin-left: auto;
+    /* height: auto; */
+    /* margin-left: auto;
     margin-right:auto; 
-    margin-bottom: auto; 
+    margin-bottom: auto;  */
+    /* width: auto; */
+    /* padding: 35px; */
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     background-color: yellow;
   }
+
   .answer:hover {
     background: rgba(250, 240, 99, 0.99);
   }
@@ -133,8 +139,8 @@
   /* // Extra small devices (portrait phones, less than 576px) */
   @media (max-width: 575px) { 
     .timer-p {
-      margin-top: 70px;
-      margin-bottom: 30px;
+      /* margin-top: 70px;
+      margin-bottom: 30px; */
     }
     body {
       background-image: url("../images/a0gvhid6qotnduzvqtwm.jpg");
@@ -173,6 +179,7 @@
     .jumbotron, #mainArea, .main-button-container {
       margin: auto;
       width: 100%;
+      height: auto;
       color: red;
       text-align: center;
       font-size: 10px;
@@ -184,7 +191,7 @@
   /* // Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767px) {  
   body {
-    /* background-image: url("../images/roomphoto.jpg"); */
+    background-image: url("..//roomphoto.jpg");
     background-repeat: no-repeat;
     background-position: cover;
     text-align: center;
@@ -198,13 +205,12 @@
   p {
       font-size: 30px;
       font-weight: 300;
-      margin-top: 50px;
       font-size: 18px;
       opacity: .7;
       font-size: 16px;
       height: auto;
-      margin-top: 50px;
-      margin-left: auto;
+      /* margin-top: 50px;
+      /* margin-left: auto; */
       margin-right:auto; 
       margin-bottom: auto; 
       background-color: yellow;
